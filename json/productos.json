@@ -1,0 +1,182 @@
+[
+    {
+        "id" :1,
+        "nombre" : "El señor de los anillos: La comunidad del anillo",
+        "autor" :"J.R.R. Tolkien",
+        "publicacion": 1954,
+        "editorial": "Minotauro",
+        "precio":8600,
+        "stock":7,
+        "img":"./assets/lordofrings1.webp"
+    },
+    {
+        "id" :2,
+        "nombre" : "El señor de los anillos: Las dos torres",
+        "autor" :"J.R.R. Tolkien",
+        "publicacion": 1954,
+        "editorial": "Minotauro",
+        "precio":8500,
+        "stock":5,
+        "img": "./assets/lordofrings2.webp"
+    },
+    {
+        "id" :3,
+        "nombre" : "El señor de los anillos: El retorno del rey",
+        "autor" :"J.R.R. Tolkien",
+        "publicacion": 1955,
+        "editorial": "Minotauro",
+        "precio":8100,
+        "stock":6,
+        "img": "./assets/lordofrings3.webp"
+    },
+    {
+        "id" :4,
+        "nombre" : "El Silmarillon",
+        "autor" :"J.R.R. Tolkien",
+        "publicacion": 1977,
+        "editorial": "Minotauro",
+        "precio":8000,
+        "stock":2,
+        "img": "./assets/elsilmarillon.webp"
+    },
+    {
+        "id" :5,
+        "nombre" : "El Hobbit",
+        "autor" :"J.R.R. Tolkien",
+        "publicacion": 1937,
+        "editorial": "Minotauro",
+        "precio":9000,
+        "stock":3,
+        "img": "./assets/elhobbit.webp"
+    },
+    {
+        "id" :6,
+        "nombre" : "Dune",
+        "autor":"Frank Herbert",
+        "publicacion": 1965,
+        "editorial": "De Bolsillo",
+        "precio":9000,
+        "stock":5,
+        "img": "./assets/dune1.webp"
+    },
+    {
+        "id" :7,
+        "nombre" : "El mesias de Dune",
+        "autor":"Frank Herbert",
+        "publicacion": 1969,
+        "editorial": "De Bolsillo",
+        "precio":9200,
+        "stock":5,
+        "img": "./assets/dune2.webp"
+    },
+    {
+        "id" :8,
+        "nombre" : "Hijos de Dune",
+        "autor":"Frank Herbert",
+        "publicacion": 1976,
+        "editorial": "De Bolsillo",
+        "precio":8200,
+        "stock":5,
+        "img": "./assets/dune3.webp"
+    },
+    {
+        "id" :9,
+        "nombre" : "Dios Emperador de Dune",
+        "autor":"Frank Herbert",
+        "publicacion": 1981,
+        "editorial": "De Bolsillo",
+        "precio":7800,
+        "stock":5,
+        "img": "./assets/dune4.webp"
+    },
+    {
+        "id" :10,
+        "nombre" : "Herejes de Dune",
+        "autor":"Frank Herbert",
+        "publicacion": 1984,
+        "editorial": "De Bolsillo",
+        "precio":7900,
+        "stock":5,
+        "img": "./assets/dune5.webp"
+    },
+    {
+        "id" :11,
+        "nombre" : "Casa Capitular de Dune",
+        "autor":"Frank Herbert",
+        "publicacion": 1985,
+        "editorial": "De Bolsillo",
+        "precio":9700,
+        "stock":5,
+        "img": "./assets/dune6.webp"
+    },
+    {
+        "id" :12,
+        "nombre" : "Harry Potter y la piedra filosofal",
+        "autor":"J.K. Rowling",
+        "publicacion": 1998,
+        "editorial": "Salamandra",
+        "precio":7500,
+        "stock":1,
+        "img": "./assets/hp1.webp"
+    },
+    {
+        "id" :13,
+        "nombre" : "Harry Potter y la camara secreta",
+        "autor":"J.K. Rowling",
+        "publicacion": 1999,
+        "editorial": "Salamandra",
+        "precio":8150,
+        "stock":7,
+        "img": "./assets/hp2.webp"
+    },
+    {
+        "id" :14,
+        "nombre" : "Harry Potter y el prisionero de Azkaban",
+        "autor":"J.K. Rowling",
+        "publicacion": 2000,
+        "editorial": "Salamandra",
+        "precio":8000,
+        "stock":10,
+        "img": "./assets/hp3.webp"
+    },
+    {
+        "id" :15,
+        "nombre" : "Harry Potter y el caliz de fuego",
+        "autor":"J.K. Rowling",
+        "publicacion": 2001,
+        "editorial": "Salamandra",
+        "precio":10000,
+        "stock":2,
+        "img": "./assets/hp4.webp"
+    },
+    {
+        "id" :16,
+        "nombre" : "Harry Potter y la orden del fenix",
+        "autor":"J.K. Rowling",
+        "publicacion": 2004,
+        "editorial": "Salamandra",
+        "precio":7500,
+        "stock":8,
+        "img": "./assets/hp5.webp"
+    },
+    {
+        "id" :17,
+        "nombre" : "Harry Potter y el misterio del principe",
+        "autor":"J.K. Rowling",
+        "publicacion": 2006,
+        "editorial": "Salamandra",
+        "precio":9400,
+        "stock":4,
+        "img": "./assets/hp6.webp"
+    },
+    {
+        "id" :18,
+        "nombre" : "Harry Potter y las reliquias de la muerte",
+        "autor":"J.K. Rowling",
+        "publicacion": 2008,
+        "editorial": "Salamandra",
+        "precio":10500,
+        "stock":1,
+        "img": "./assets/hp7.webp"
+    }
+]
