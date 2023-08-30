@@ -37,7 +37,7 @@
         "editorial": "Minotauro",
         "precio":8000,
         "stock":2,
-        "img": "./assets/elsilmarillon.webp"
+        "img": "./assets/elsilmarillion.webp"
     },
     {
         "id" :5,

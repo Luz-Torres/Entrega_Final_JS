@@ -1,24 +1,27 @@
-const listadoProductos = document.getElementsByClassName("#contenedor-items")
+const lista = document.getElementById("contenedor-items")
 
 fetch("./json/productos.json")
-    .then(respuesta => respuesta.json())
-    .then(data => {
-        cargarProductos(data);
-})
-
-function cargarProductos(productos){
-    productos.foreach(producto => {
-        const items = document.createElement("div");
-        items.innerHTML =
-        `
-        <span class="titulo-item">${producto.nombre}</span>
-        <img src="${producto.img}" alt="" class="img-item">
-        <span class="precio-item">${producto.precio}</span>
-        <button class="boton-item">Agregar al Carrito</button>
-        `
-        listadoProductos.append(items);
+    .then( response => response.json())
+    .then( data => {
+        console.log(data);
+        data.forEach(productos => {
+            console.log(productos.nombre);
+            const div = document.createElement("div");
+            div.classList.add("item");
+            div.innerHTML =
+            `
+            <span class="titulo-item">${productos.nombre}</span>
+            <img src="${productos.img}" alt="" class="img-item">
+            <span class="precio-item">${productos.precio}</span>
+            <button class="boton-item">Agregar al Carrito</button>
+            `
+            lista.appendChild(div);
+        });
+    })
+    .catch (error => {
+        console.error('error al procesar el archivo', error)
     });
-}
+
 
 
 
@@ -62,7 +65,13 @@ function ready(){
 }
 
 function pagarClicked(){
-    alert("Gracias por la compra");
+
+    Swal.fire({
+        icon: 'success',
+        title: 'Gracias por su compra',
+        text: 'Su código de descuento para la proxima compra es &51ZXVZAB',
+    })
+    /* alert("Gracias por la compra"); */
 
     let carritoItems = document.getElementsByClassName('carrito-items')[0];
     while (carritoItems.hasChildNodes()){
