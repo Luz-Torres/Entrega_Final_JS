@@ -115,7 +115,10 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
     let nombresItemsCarrito = itemsCarrito.getElementsByClassName('carrito-item-titulo');
     for(let i=0;i < nombresItemsCarrito.length;i++){
         if(nombresItemsCarrito[i].innerText==titulo){
-            alert("El item ya se encuentra en el carrito");
+            Swal.fire({
+                icon: 'warning',
+                title: 'Ese producto ya encuentra en el carrito',
+            })
             return;
         }
     }
