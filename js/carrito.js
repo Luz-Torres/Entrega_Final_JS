@@ -12,7 +12,7 @@ fetch("./json/productos.json")
             `
             <span class="titulo-item">${productos.nombre}</span>
             <img src="${productos.img}" alt="" class="img-item">
-            <span class="precio-item">${productos.precio}</span>
+            <span class="precio-item">$${productos.precio}</span>
             <button class="boton-item">Agregar al Carrito</button>
             `
             lista.appendChild(div);
@@ -23,8 +23,7 @@ fetch("./json/productos.json")
     });
 
 
-
-
+    
 let carritoVisible = false;
 
 if(document.readyState == 'loading'){
